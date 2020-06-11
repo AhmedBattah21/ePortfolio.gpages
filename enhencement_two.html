@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+  <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+    
+        #myinfor{
+    
+            margin-left: -25%;
+            transition: 2s;
+    
+        }
+        
+        .code_1{
+            color: black;
+            font-weight: bold;
+                
+            
+        }
+        
+        .code_1:hover{
+            
+            color: red;
+            text-decoration: none;
+            transition: all 1s ease-out;
+            
+            
+        }
+
+    </style>
+  <title>About Me</title>
+    
+
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+      
+      
+      <!-- start of card -->
+      
+      
+      
+      
+        <div class="card" id="myinfor" style="width:70%; margin-left: -15%;">
+    
+                
+              <div class="card-body">
+                <h3 class="card-title">Enhancement Two</h3>
+                <br/>
+                <a href="my_posts.html">
+                <button type="button" class="btn btn-light" style="margin-left: 45%;font-size: 18px;">
+                    <i class="fa fa-arrow-left"></i>
+                </button>
+                   
+                </a>
+                  
+               <br/>
+              </div>
+            
+              <ul class="list-group list-group-flush">
+                
+                <li class="list-group-item" style="color: black">
+                
+                <h5 class="code_1">Enhancement Two: Algorithms and Data Structure</h5>
+                    <p>
+                     
+                     During my previous code review[Watch The Video], I listed some of the weaknesses that were caused by usage of unsuitable data structures and algorithms. Firstly, the application freezes once an admin logs in, this is due to the large amount of data from fetched from database at start up and loaded at once on the Main GUI. Also there is not suitable algorithm implemented in the project to make searching of forms, student’s details. The project therefore depends on the select statements to search for the required data.
+                        
+                    </p>
+
+                    <p>
+                    
+                  To enhance this project, I corrected the first issue, freezing of the application at start up. To make it work, I created an array List which are used to hold the data fetched from the database. This data is further user to create only ten of the forms which need to be displayed in the main window. This forms are stored in a VBox layout, a scroll pane is used to hold this layout to allow for scrolling so that a user can see all the forms. At the end of the first ten, I add a button, this button add ten more forms of each data in the array list. Since only ten records are loaded at start up, the freezing of the application is removed.
+                    
+                    </p>
+                    
+                    
+                    <p>
+                    The second issue was about the searching for student’s details, student’s examination report forms and other necessary details like fee records. This part of the project is one of the reason for the development of the project. Fetching and display of data should be quick and easy. On the old application, user can search for the data, however due to some weak algorithms used, the data collected and the time taken to display the data is not meeting the objectives of the application. To correct this problem I introduced a searching algorithm which fetches the necessary data from the database, filter the data and display it to the user.
+                    
+                    </p>
+                    
+                    <p>
+                    The enhancements listed in my previous code review have been met and the program is now improved. Searching of data is quick and easy. The application does not freeze at admin’s log in. However I am still checking the best algorithm to use so that all users, regardless of the memory capacity of their computers, should have the application working and meeting its objectives.
+                    </p>
+                   
+                </li>
+                  
+                  
+                  
+                  <li class="list-group-item" style="color: black">
+                    
+                 <h5 class="code_1">Achievement</h5>
+                 <p>
+                     
+                     These two enhancements on data structures and algorithms has enabled the full project to meet fully the objectives of the application. The project takes few seconds to load unlike the old application. Secondly, the deep research on the data structures and algorithms perfected me on this field. During the research I worked on most of the java data structures like queues, stacks, Binary Trees, Binary search trees and many more. I was able to check algorithms time complexity, efficiency and choosing of algorithms depending on memory usage. However I am still working on the algorithm part, to make sure I get the best algorithms depending on the application usage and the targeted computer systems.
+                    
+                 </p>
+                    
+                
+                </li>
+                  
+                  
+                
+                  
+                  
+                <li class="list-group-item" style="color: black">
+                    
+                 <h5 class="code_1">Update</h5>
+                 <p>
+                     
+                     I managed to work on all the planned enhancement on this part of the project.
+                     <br/>
+                     Project Link <a href="#">Enhancement Two</a>
+                    
+                 </p>
+                    
+                
+                </li>
+                  
+                  
+               
+                  
+                <li class="list-group-item" style="color: black">
+                    
+                 <h5 class="code_1">Project Links</h5>
+                 <ul>
+                    
+                     <li><a class="code_2" href="self_assement.html">Professional Self-Assessment and Project Introduction</a></li>
+                     <li><a class="code_2" href="Refinement_Plan_and_Code_Review.html">Refinement Plan and Code Review</a></li>
+                     <li><a class="code_2" href="about_selected_artifact.html">Selected Project</a></li>
+                     <li><a class="code_2" href="enhencement_one.html">Enhancement One</a></li>
+                     <li><a class="code_2" href="enhencement_two.html">Enhancement Two</a></li>
+                     <li><a class="code_2" href="enhencement_three.html">Enhancement Three</a></li>
+                    
+                 </ul>
+                
+                </li>
+                    
+                
+              </ul>
+              
+        </div>
+      
+      
+      
+      
+      <!-- end of card -->
+      
+    
+   
+      
+      
+  </main>
+
+  <footer id="main-footer"><a href="https://github.com/diveshlunker">
+    Copyright &copy; 2019</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+    
+<script>
+window.onload = function() {
+    
+  var ball = document.getElementById('myinfor');
+  ball.style.marginLeft = "15%";
+};
+</script>
+</body>
+
+</html>
